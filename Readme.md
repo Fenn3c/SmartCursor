@@ -8,6 +8,11 @@
 const THEME = 'BLACK';
 const LAZINESS = 200;
 ```
+**Use the SC-block and SC-text classes to designate interactive elements**
+```html
+<button class="SC-block">Button</button>
+<h1 class="SC-text">Title</h1>
+```
 ## Examples
 ### White cursor
 
