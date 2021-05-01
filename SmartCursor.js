@@ -87,10 +87,10 @@ function lockOnElem(elem) {
     let targetX = targetW / 2 + elem.getBoundingClientRect().left;
     let targetY = targetH / 2 + elem.getBoundingClientRect().top;
 
-    if (elem.className === 'SC-block') {
+    if (elem.classList.contains('SC-block')) {
         IS_LOCKED = true;
         cursorBlock(targetX, targetY, targetH, targetW);
-    } else if (elem.className === 'SC-text') {
+    } else if (elem.classList.contains('SC-text')) {
         let targetS = window.getComputedStyle(elem).fontSize;
         cursorText(targetS);
     }
