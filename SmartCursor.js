@@ -25,7 +25,7 @@ function cursorDefaults() {
     style.width = '19pt';
     style.transform = 'translate(-50%,-50%)';
     style.borderRadius = '50%';
-    style.position = 'absolute';
+    style.position = 'fixed';
     style.top = '0';
     style.left = '0';
     style.transition = `all ${LAZINESS}ms ease-out`;
